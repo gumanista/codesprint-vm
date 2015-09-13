@@ -26,7 +26,7 @@ Note on versions: *Please make sure you're running the latest stable version of 
 
 ### 3 - Configure your host machine to access the VM.
 
-Add the line `192.168.44.45  proconsort.local.dev`
+Add the line `192.168.44.45  codesprint.dev
 
 ### 4 - Prepare environment variables
 
