@@ -1,0 +1,9 @@
+.DS_Store
+.vagrant/
+vagrant_ansible_inventory_default
+#config.yml
+#drupal.make.yml
+test.yml
+examples/prod/inventory
+provisioning/roles
+.build/drupal8

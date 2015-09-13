@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+    - name: Get current folder
+      command: pwd
+      register: pwd_out
+
+    - debug: msg="{{ provisioner_path }}"
+
+    - name: Install roles
+      command: "ansible-galaxy install -r provisioning/requirements.txt -p provisioning/roles"
+
+
