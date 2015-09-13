@@ -32,7 +32,7 @@ Add the line `192.168.44.45  codesprint.dev
 
   1. go to vagrant folder
   2. Update vagrant_synced_folders variable in config.yml
-  2. run ansible-playbook install -r provisioning/requirements.txt -p provisioning/roles
+  2. run ansible-galaxy install -r provisioning/requirements.txt -p provisioning/roles
 
 ### 5 - Start vagrant
 
